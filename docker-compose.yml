@@ -1,0 +1,31 @@
+version: '3.2'
+services:
+  php:
+    container_name: automation-php
+    build: ./docker/php
+    volumes:
+      - ./:/var/www
+    networks:
+      main:
+#        aliases:
+#          - symfony.demo
+    working_dir: /var/www
+    command: tail -f /dev/null
+
+  selenium:
+    container_name: automation-selenium
+    image: 'selenium/standalone-chrome-debug'
+#    image: 'selenium/standalone-firefox-debug'
+    volumes:
+      - ./:/data
+    ports:
+      - "4444:4444"
+      - "5959:5900"
+    privileged: true
+    networks:
+      main:
+        aliases:
+          - selenium.demo
+
+networks:
+  main:
