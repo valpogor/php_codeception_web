@@ -1,4 +1,8 @@
 #Codeception on Docker
+
+## Demo - 
+[<img src="https://img.youtube.com/vi/d6JaDdOdiSo/maxresdefault.jpg" width="50%">](https://youtu.be/d6JaDdOdiSo)
+
 ##Setup
 1. Install [Docker](https://docs.docker.com/docker-for-mac/)
 2. Run Docker (required all time after restart!!!)
@@ -98,6 +102,16 @@ TEST FOLDERS:
 vendor 
     
     folder with library 
+    
+## Created by Val Pog
+
+
+<div>
+  <a href="https://github.com/valpogor">Github</a>  
+</div>
+  <img alt="Val Pog" src="https://media.licdn.com/dms/image/C5603AQEWgTRNW4fccg/profile-displayphoto-shrink_100_100/0?e=1573689600&v=beta&t=hcEUHZe539U3DTUlidGbUbVdIPQujsZigMM9Ufd8T6E" width=100 height=100 />
+
+  
    
 
     
