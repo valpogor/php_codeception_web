@@ -1,7 +1,7 @@
 #Codeception on Docker
 
 ## Demo - 
-[<img src="https://img.youtube.com/vi/d6JaDdOdiSo/maxresdefault.jpg" width="50%">](https://youtu.be/d6JaDdOdiSo)
+[![Video](/demo.png)](https://youtu.be/d6JaDdOdiSo)
 
 ##Setup
 1. Install [Docker](https://docs.docker.com/docker-for-mac/)
