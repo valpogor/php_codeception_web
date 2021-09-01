@@ -1,6 +1,6 @@
 {
     "require": {
-        "codeception/codeception": "2.4.1",
+        "codeception/codeception": "4.1.22",
         "facebook/webdriver": "1.5.0",
         "phpunit/phpunit": "^7.1",
         "elstc/codeception-mobileemulation": "^1.0",
